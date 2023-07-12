@@ -1,0 +1,183 @@
+header{
+    position: fixed !important;
+    z-index: 2;
+}
+
+#navbar {
+    max-width: 1140px;
+    height: 56px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu {
+    padding-top: 22px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#drop:hover #down {
+    display: block;
+}
+
+/* ---------------Main Start-------------- */
+
+
+.height100 {
+    height: 90vh;
+}
+
+.height50 {
+    height: 50vh;
+}
+
+#main-content h1 {
+    font-size: 3.8em;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+#sec1-main {
+    margin: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+/* ---------Section 2------------- */
+
+#sec2 .container {
+    padding-top: 100px;
+    flex-wrap: wrap;
+    display: flex !important;
+    align-items: center;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+#sec2 #port-content {
+    width: 30% !important;
+}
+
+#sec2 #port-com {
+    width: 50% !important;
+}
+
+/* ---------Section 3----------- */
+
+
+#sec3 {
+    height: 70vh;
+    padding: 0 !important;
+}
+
+
+#sec3-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+#sec3-content h3 {
+    font-size: 3.8em;
+}
+
+#sec3-content p {
+    font-size: .9em;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* ------------Section4-------- */
+
+#sec4-bg{
+    height: 1100px;
+}
+
+/* ------------Section5-------- */
+#sec5-photo div , #sec5-photo img {
+    width: 337px !important;
+}
+#sec5-photo {
+    height: 1134px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#sec5-photo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#sec6{
+    height: 80vh;
+}
+
+.project {
+    position: relative;
+    transition: all 2s;
+    overflow: hidden;
+}
+.abs {
+    position: absolute;
+    background-color: #00000093;
+    height: 100%;
+    width: 337px;
+    top: 0;
+    transform: translateY(235px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    visibility: hidden;
+    transition: .7s;
+}
+
+.project:hover .abs {
+    visibility: visible;
+    transform: translateY(0);
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 4px;
+}
+#fb:hover{
+    background-color: blue;
+}
+#twt:hover{
+    background-color: #3dbfeb;
+}
+#lnk:hover{
+    background-color: #6e6ed8;
+}
+
+#ytb:hover{
+    background-color: red;
+}
+#ins:hover{
+    background-color: rgb(233, 10, 10);
+}
